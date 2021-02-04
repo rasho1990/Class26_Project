@@ -1,0 +1,92 @@
+.modal {
+  top: 10vh;
+}
+
+.bucketList-item {
+  margin: 1rem 0;
+}
+
+.bucketList-item__content {
+  background-color: #eeeeee;
+  padding: 0;
+}
+
+.bucketList-item__content_sum {
+  background-color: #204051;
+  padding: 0;
+}
+
+.bucketList-item__info {
+  padding: 1rem;
+  text-align: center;
+  margin-right: 1rem;
+}
+
+.bucketList-item__details {
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bucketList-item__image {
+  width: 10rem;
+  height: 10rem;
+  margin: 1rem 1rem 0 2rem;
+}
+
+.bucketList-item_detail__image {
+  width: 100%;
+  height: 20rem;
+  margin-right: 1.5rem;
+}
+
+.bucketList-item_detail__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bucketList-item__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.bucketList-item__info h2,
+.bucketList-item__info h3,
+.bucketList-item__info p {
+  margin: 0 0 0.5rem 0;
+}
+
+.bucketList-item__actions {
+  padding: 1rem;
+  text-align: center;
+}
+
+.bucketList-item__modal-content {
+  padding: 0;
+}
+
+.bucketList-item__modal-actions {
+  text-align: right;
+}
+
+.bucketList-item__actions button,
+.bucketList-item__actions a {
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.map-container {
+  height: 15rem;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .place-item__image {
+    height: 20rem;
+  }
+}

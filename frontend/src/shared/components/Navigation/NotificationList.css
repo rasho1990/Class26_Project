@@ -1,0 +1,62 @@
+ul {
+  color: white;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.dropdown.h2 {
+  background-color: #242526;
+  color: yellow;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+  /* make scrollbar transparent */
+}
+.dropdown {
+  position: absolute;
+  top: 40px;
+  width: 48%;
+  height: 22rem;
+  transform: translateX(-45%);
+  border-radius: 8px;
+  padding: 1rem;
+  overflow-y: scroll;
+  transition: height var(500ms) ease;
+}
+.notification {
+  text-transform: uppercase;
+  text-align: center;
+  color: #01a9b4;
+  margin: 10px 0px;
+  padding-top: 4px;
+  width: 50%;
+  height: 80px;
+  box-shadow: 0px 2px 2px lightgray;
+  transition: ease background-color 250ms;
+  background: #f7faf9;
+  border-color: #d9e0e4;
+}
+.bell {
+  color: white;
+}
+@media (max-width: 600px) {
+  .dropdown {
+    height: 100vh;
+  }
+}
+@media only screen and (max-width: 360px) and (min-width: 0px) {
+  .bell {
+    margin-left: 15px;
+  }
+}
+@media only screen and (max-width: 410px) and (min-width: 360px) {
+  .bell {
+    margin-left: 55px;
+  }
+}
+@media only screen and (max-width: 600px) and (min-width: 410px) {
+  .bell {
+    margin-left: 100px;
+  }
+}

@@ -1,0 +1,32 @@
+.features-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature {
+  display: inline-block;
+  margin-top: 5rem;
+  width: 33%;
+  text-align: center;
+  vertical-align: top;
+}
+.picture {
+  width: 10rem;
+  height: 10rem;
+}
+.caption {
+  font-weight: normal;
+  color: black;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .picture {
+    width: 6rem;
+  }
+}
+@media (max-width: 1023px) {
+  .feature {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,70 @@
+.banner__container {
+  background-image: url(../../images/background.jpg);
+  background-size: cover;
+  width: 100%;
+  min-height: 650px;
+  position: relative;
+  top: 0;
+  background-position-x: center;
+  background-position-y: top;
+  opacity: 0.7;
+  margin-top: -1rem;
+}
+
+.banner__header {
+  display: block;
+  margin: 0 auto;
+  min-height: 150px;
+  width: 38%;
+  min-width: 300px;
+}
+
+.indecator {
+    position: absolute;
+    width: 20px;
+    height: 72px;
+    left: 0;
+    right: 0;
+    margin:  auto;
+    bottom: -10px;
+    transform: translate(-50%, -50%);
+  }
+  
+  .indecator span {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-bottom: 0.3rem solid #733b37;
+    border-right: 0.3rem solid #733b37;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+  }
+  
+  .box span:nth-child(1)
+  {
+    animation-delay: -0.2s;
+  }
+  
+  .box span:nth-child(2)
+  {
+    animation-delay: -0.4s;
+  }
+  
+  @keyframes animate
+  {
+    0%
+    {
+      opacity: 0;
+      transform: rotate(45deg) translate(-20px, -20px);
+    }
+    50%
+    {
+      opacity: 1;
+    }
+    100%
+    {
+      opacity: 0;
+      transform: rotate(45deg) translate(20px, 20px);
+    }
+  }

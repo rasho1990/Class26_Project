@@ -1,0 +1,16 @@
+{
+  "env": {
+    "DB_USER": "dbAdmin",
+    "DB_PW": "LsxwQrdsrEVLABlL",
+    "DB_NAME": "placesharer-dev",
+    "JWT_SECRET": "supersecretman!",
+    "GOOGLE_OATH": "1023635616404-7pc7cm52hhj0t997u43rshrctjdafdqe.apps.googleusercontent.com",
+    "MAPBOX_TOKEN": "pk.eyJ1IjoiaHlmY2xhc3MyNiIsImEiOiJja2QzNG5hMzQxanhnMnNwdnJ0ZmN1YzB0In0.9wpXECjySi4MS-oOpxwWYQ",
+    "CLOUDINARY_SECRET": "70nW0VyQoB1KuByu2jrAUZGTZtY",
+    "JWT_REST_PASSWORD": "passwordTochange",
+    "CLIENT_URL": "http://localhost:3000",
+    "EMAIL_FROM": "noreplay@mernauth.com",
+    "DOMAIN_MAILGUN": "sandbox4b5e1fcb4cb348b39521617e6cc7d316.mailgun.org",
+    "MAILGUN_API_KEY": "e88c51488bca89600cdbfb0c891927bd-a65173b1-976c279f"
+  }
+}

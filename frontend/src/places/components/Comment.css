@@ -1,0 +1,162 @@
+.userImage {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 20%;
+}
+.userDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-bottom: 1%;
+}
+.comment {
+  display: flex;
+  align-items: center;
+  flex-flow: row;
+  margin-left: 1%;
+}
+
+.userName {
+  margin-left: 5px;
+  overflow: circle;
+  flex: 1;
+}
+.commentBody,
+.editInput {
+  background-color: white;
+  width: 99%;
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 5px;
+  overflow-wrap: break-word;
+  overflow: auto;
+  font-family: 'Open Sans', sans-serif;
+  resize: none;
+  font-size: 1em;
+  line-height: normal;
+}
+
+.editInput {
+  height: 9vh;
+  font-size: 1em;
+  line-height: normal;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+}
+.date {
+  color: #01a9b4;
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 1%;
+}
+.container {
+  background-color: #dce0e0;
+  padding: 1%;
+  margin-top: 10px;
+  border-radius: 10px;
+  align-items: center;
+  transition: 1s;
+}
+.dropList {
+  position: relative;
+  background-color: #f1f1f1;
+  min-width: 40px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 10px;
+}
+.dropList2 {
+  position: relative;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.dropList_content {
+  padding-left: 5px;
+}
+.btn-active {
+  color: black;
+  width: 2px;
+  text-decoration: none;
+  display: block;
+  border: none;
+  cursor: pointer;
+  background-color: #f1f1f1;
+  min-width: 40px;
+  border-radius: 10px;
+}
+
+.btn-active:hover {
+  color: #01a9b4;
+}
+
+.btn-active:focus {
+  border: none;
+  outline: none;
+}
+.commentContent {
+  width: 100%;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  margin-right: 1%;
+}
+@media only screen and (max-width: 770px) and (min-width: 300px) {
+  .commentContent {
+    width: 100%;
+  }
+
+  .commentBody {
+    margin-bottom: 2%;
+    line-height: 1rem;
+    font-size: 1em;
+    width: 70vw;
+  }
+  .editInput {
+    width: 70vw;
+    height: 15vh;
+    font-size: 1em;
+    line-height: 1rem;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 25vw;
+    margin-top: 3%;
+  }
+
+  .comment {
+    flex-flow: column;
+    padding: 2%;
+  }
+  .dropList,
+  .dropList2 {
+    bottom: 0;
+    justify-content: center;
+  }
+
+  .userDiv {
+    display: flex;
+    flex-direction: row;
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-right: 0;
+  }
+  .userName {
+    margin-bottom: 0em;
+  }
+  .date {
+    font-size: 12px;
+    margin-right: 3%;
+  }
+}

@@ -1,0 +1,17 @@
+.star {
+	cursor: pointer;
+	transition: color 300ms;
+	outline: none;
+}
+
+.ratings {
+	font-size: 1rem;
+	color: #a5a298;
+	font-style: italic;
+}
+.StarRating {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}

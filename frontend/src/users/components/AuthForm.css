@@ -1,0 +1,32 @@
+.authentication__header {
+  color: black;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0.2rem;
+}
+
+.authentication {
+  width: 90%;
+  max-width: 25rem;
+  margin: 4rem auto !important;
+  text-align: center;
+}
+
+.authentication form {
+  margin-bottom: 1rem;
+}
+
+.social-media-button-class {
+  padding: 0.9rem 1.5rem;
+  border: 1px solid #020202;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  text-decoration: none;
+  display: inline-block;
+}
+.facebook {
+  background: #224edf;
+  color: white;
+}

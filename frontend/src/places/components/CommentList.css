@@ -1,0 +1,91 @@
+.comment-button {
+  background-color: black !important;
+}
+
+.formInput {
+  width: 100%;
+  border: 1px solid;
+  border-color: black;
+  border-radius: 8px;
+  padding: 5px;
+  text-align: justify;
+  margin: 5px 0 0 0px;
+  resize: none;
+  font-size: 12px;
+  line-height: 1.2rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+.place-photo {
+  width: 100%;
+  border-radius: 20px;
+}
+.not-valid {
+  color: red;
+}
+
+.bttn {
+  color: white;
+  font-size: medium;
+  text-transform: uppercase;
+  margin: 10px 20px;
+  width: 25%;
+  height: 40px;
+  box-shadow: 0px 2px 2px lightgray;
+  transition: ease background-color 250ms;
+  background: #01a9b4;
+  border-color: #909596;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.bttn:hover,
+.bttn:active {
+  background: #01a9b4;
+  border-color: #5c4a4b;
+}
+
+.bttn:disabled,
+.bttn:hover:disabled,
+.bttn:active:disabled {
+  background: #ccc;
+  color: #979797;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+.icon {
+  margin: 0 auto;
+  width: 100px;
+}
+
+.react-icons {
+  color: #01a9b4;
+}
+.formDiv {
+  margin-top: 2%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 375px) {
+  .bttn {
+    margin: auto;
+    width: 35%;
+  }
+  .form {
+    margin: 0;
+  }
+  .formDiv {
+    text-align: center;
+  }
+  .formInput {
+    width: 100%;
+    padding: 2%;
+    margin: 3% 3% 3% 0;
+    border-radius: 8px;
+    line-height: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+  }
+}
